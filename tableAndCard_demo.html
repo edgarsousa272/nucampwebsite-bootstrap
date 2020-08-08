@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <title> Bootstrap Table and Card Demo </title>
+</head>
+<body>
+    <!-- responsive= scroll bar when is small -->
+    <div class="table-responsive">
+    <table class="table table-light table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    Breakpoint
+                </th>
+                <th>
+                    Extra Small
+                </th>
+                <th>
+                    Small
+                </th>
+                <th>
+                    Medium
+                </th>
+                <th>
+                    Large
+                </th>
+                <th>
+                    Extra Large
+                </td>
+            </tr>
+        </thead>
+
+        <tbody>
+                <th>
+                    Viewport Width
+                </th>
+                <td>
+                    &lt;576px
+                </td>
+                <td>
+                    &ge;576px
+                </td>
+                <td>
+                    &ge;768px
+                </td>
+                <td>
+                    &ge;992px
+                </td>
+                <td>
+                    &ge;1200px
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Colum Class Prefix
+                </th>
+                <td>
+                    .col-
+                </td>
+                <td>
+                    .col-sm-
+                </td>
+                <td>
+                    .col-md
+                </td>
+                <td>
+                    .col-lg
+                </td>
+                <td>
+                    .col-xl
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+      <!-- JQuery must come first, then Popper.js, then Bootstrap Javascript plugins. -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <div>
+    <h2>Card Demo</h2>       
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card border-info">
+                        <h3 class="card-header bg-info text-light">Set up data from the rest of the page</h3>
+                        <div class="card-body">
+                            Set up data from the rest of the page. Set up data from the rest of the page. Set up data from the rest of the page. Set up data from the rest of the page. Set up data from the rest of the page. Set up data from the rest of the page. Set up data from the rest of the page.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="media">
+<!-- make image max 100% -->
+        <img class="img-fluid img-thumbnail" src="img/profile.jpeg"/>
+            <div class="media-body">
+        wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.wrap around the text.
+        </div>
+    </div>
+</body>
+
+</html>
