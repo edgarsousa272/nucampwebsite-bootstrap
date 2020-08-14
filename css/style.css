@@ -32,7 +32,7 @@ header h2 {
     min-height: 200px;
 }
 
-.navbar-dark{
+.navbar{
     background-color: #901CAD;
 }
 
@@ -43,3 +43,11 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
